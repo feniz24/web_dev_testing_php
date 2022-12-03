@@ -1,0 +1,17 @@
+{
+    "name": "feniz/project",
+    "authors": [
+        {
+            "name": "feniz"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/",
+            "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
